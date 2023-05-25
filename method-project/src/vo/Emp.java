@@ -4,6 +4,10 @@ public class Emp {
 	private int empId;
 	private String empName;
 	private String team;
+	private int empNo;
+    private String ename;
+    private boolean retirer;
+    
 	public int getEmpId() {
 		return empId;
 	}
@@ -21,6 +25,24 @@ public class Emp {
 	}
 	public void setTeam(String team) {
 		this.team = team;
+	}
+	public int getEmpNo() {
+		return empNo;
+	}
+	public void setEmpNo(int empNo) {
+		this.empNo = empNo;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public boolean isRetirer() {
+		return retirer;
+	}
+	public void setRetirer(boolean retirer) {
+		this.retirer = retirer;
 	}
 	
 	
